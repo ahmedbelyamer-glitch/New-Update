@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- استدعاء أيقونات FontAwesome للأزرار والبحث والسلة -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+      <!-- شريط التنقل (Navbar) -->
+    <nav class="navbar">
+        <div class="logo">Lollypopia</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">الرئيسية</a></li>
+            <li><a href="#">تسوق</a></li>
+            <li><a href="#">تسوية</a></li>
+            <li><a href="#">عروض خاصة</a></li>
+            <li><a href="#">عنّا</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+        <div class="nav-icons">
+            <input type="text" class="search-bar" placeholder="ابحث عن حلوى مفضلة...">
+            <span style="font-size: 1.3rem; cursor: pointer;">🛒</span>
+            <span style="font-size: 1.3rem; cursor: pointer;">❤️</span>
+        </div>
+    </nav>
+
+    <!-- البانر الرئيسي (Hero Section) -->
+    <header class="hero-banner">
+        <h1 class="hero-title">عالم من السعادة والحلويات</h1>
+        <button class="hero-btn">تسوق الآن</button>
+    </header>
+
+    <main class="container">
+        <!-- قسم التصنيفات الدائرية (Categories) -->
+        <section class="categories-section">
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #f3e9dc;"><img src="https://via.placeholder.com/100" alt="Coffee Capsules"></div>
+                <p>Coffee Capsules</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #e6ccb2;"><img src="https://via.placeholder.com/100" alt="Espresso Beans"></div>
+                <p>Espresso Beans</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #e2ecc8;"><img src="https://via.placeholder.com/100" alt="Specialty Tea"></div>
+                <p>Specialty Tea</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #bde0fe;"><img src="https://via.placeholder.com/100" alt="Machines"></div>
+                <p>Machines</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #cdb4db;"><img src="https://via.placeholder.com/100" alt="Barista Tools"></div>
+                <p>Barista Tools</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #ffcad4;"><img src="https://via.placeholder.com/100" alt="Bottled Drinks"></div>
+                <p>Bottled Drinks</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #ffe5ec;"><img src="https://via.placeholder.com/100" alt="Gourmet Snacks"></div>
+                <p>Gourmet Snacks</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img" style="background-color: #d8f3dc;"><img src="https://via.placeholder.com/100" alt="Healthy Foods"></div>
+                <p>Healthy Foods</p>
+            </div>
+        </section>
+    </main>
+
+    <main class="container">
+        <!-- قسم سلايدر المنتجات -->
+        <section class="slider-section">
+            <div class="sales-header">
+                <h2> Mega-Flash Sale | UP TO 50% OFF </h2>
+            </div>
+
+            <div class="products-grid">
+                <!-- الكارت الأول -->
+                <div class="product-card">
+                    <span class="discount-badge">-11%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="Lavazza Qualita ORO">
+                    </div>
+                    <div class="product-info">
+                        <span class="brand-name">Lavazza</span>
+                        <div class="price-container">
+                            <span class="current-price">EGP 669.00</span>
+                            <span class="old-price">EGP 750.00</span>
+                        </div>
+                        <h3 class="product-title">Lavazza Qualita ORO Ground Coffee 250g + Silver Moka Pot - 3 Cups</h3>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- الكارت الثاني -->
+                <div class="product-card">
+                    <span class="discount-badge">-15%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="Silver Moka Pot Bundle">
+                    </div>
+                    <div class="product-info">
+                        <span class="brand-name">Lavazza</span>
+                        <div class="price-container">
+                            <span class="current-price">EGP 619.00</span>
+                            <span class="old-price">EGP 728.00</span>
+                        </div>
+                        <h3 class="product-title">Silver Moka Pot - 3 Cups + Lavazza IL Mattino Ground Coffee 250g Bundle</h3>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- الكارت الثالث -->
+                <div class="product-card">
+                    <span class="discount-badge">-40%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="Walkers Toffees">
+                    </div>
+                    <div class="product-info">
+                        <span class="brand-name">Walkers</span>
+                        <div class="price-container">
+                            <span class="current-price">EGP 1,495.00</span>
+                            <span class="old-price">EGP 2,495.00</span>
+                        </div>
+                        <h3 class="product-title">5 * Walkers Liquorice Toffees 150g - 750g</h3>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- الكارت الرابع -->
+                <div class="product-card">
+                    <span class="discount-badge">-11%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="Lavazza Oro 1Kg">
+                    </div>
+                    <div class="product-info">
+                        <span class="brand-name">Lavazza</span>
+                        <div class="price-container">
+                            <span class="current-price">EGP 1,790.00</span>
+                            <span class="old-price">EGP 2,000.00</span>
+                        </div>
+                        <h3 class="product-title">4 * Lavazza Qualita ORO Ground Coffee 250g - 1 Kg</h3>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="container">
+
+        <!-- قسم العروض والخصومات (Flash Deals) -->
+        <section class="sales-section">
+            <div class="sales-header">
+                <h2> BestSeller | UP TO 50% OFF </h2>
+                <a href="#" class="view-all">View all products</a>
+            </div>
+
+            <div class="products-grid"> 
+                <!-- المنتج الأول -->
+                <div class="product-card">
+                    <span class="discount-badge">-29%</span>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/180" alt="Lavazza">
+                    </div>
+                    <div class="product-info">
+                        <h3>Lavazza</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 280.00</span>
+                            <span class="old-price">EGP 375.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج الثاني -->
+                <div class="product-card">
+                    <span class="discount-badge">-40%</span>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/180" alt="San Pellegrino">
+                    </div>
+                    <div class="product-info">
+                        <h3>San Pellegrino</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 25.00</span>
+                            <span class="old-price">EGP 42.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج الثالث -->
+                <div class="product-card">
+                    <span class="discount-badge">-35%</span>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/180" alt="Torani">
+                    </div>
+                    <div class="product-info">
+                        <h3>Torani</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 350.00</span>
+                            <span class="old-price">EGP 540.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج الرابع -->
+                <div class="product-card">
+                    <span class="discount-badge">-50%</span>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/180" alt="AeroPress">
+                    </div>
+                    <div class="product-info">
+                        <h3>AeroPress</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 1,900.00</span>
+                            <span class="old-price">EGP 3,000.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sales-section">
+            <div class="products-grid"> 
+                <!-- المنتج الخامس -->
+                <div class="product-card">
+                    <span class="discount-badge">-29%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="Lavazza">
+                    </div>
+                    <div class="product-info">
+                        <h3>Lavazza</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 280.00</span>
+                            <span class="old-price">EGP 375.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج السادس -->
+                <div class="product-card">
+                    <span class="discount-badge">-40%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="San Pellegrino">
+                    </div>
+                    <div class="product-info">
+                        <h3>San Pellegrino</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 25.00</span>
+                            <span class="old-price">EGP 42.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج السابع -->
+                <div class="product-card">
+                    <span class="discount-badge">-35%</span>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/180" alt="Torani">
+                    </div>
+                    <div class="product-info">
+                        <h3>Torani</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 350.00</span>
+                            <span class="old-price">EGP 540.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+
+                <!-- المنتج الثامن -->
+                <div class="product-card">
+                    <span class="discount-badge">-50%</span>
+                    <div class="product-img">
+                    <img src="https://via.placeholder.com/180" alt="AeroPress">
+                    </div>
+                    <div class="product-info">
+                        <h3>AeroPress</h3>
+                        <div class="price-container">
+                            <span class="current-price">EGP 1,900.00</span>
+                            <span class="old-price">EGP 3,000.00</span>
+                        </div>
+                    </div>
+                    <button class="buy-now-btn">Buy now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- الأزرار العائمة (الواتساب والصعود لأعلى) -->
+    <div class="floating-buttons">
+        <a href="#" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="scroll-top-btn"><i class="fas fa-chevron-up"></i></a>
+    </div>
+</body>
+</html>
