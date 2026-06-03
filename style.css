@@ -345,9 +345,9 @@ body {
 .whatsapp-btn:hover, .scroll-top-btn:hover {
     transform: scale(1.1);}       
 /* التوافق مع الشاشات الصغيرة (الموبايل) */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .categories-section {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         display: grid;
     }
     .sales-header h2 {
