@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
-    margin: 2.5px;
+    margin: 1.5px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;}
@@ -11,7 +11,7 @@ body {
     color: #333;}
     
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;}
 
 /* --- تنسيق قسم المنتجات والعروض (Sales Section) --- */
