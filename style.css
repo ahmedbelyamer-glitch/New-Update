@@ -347,7 +347,7 @@ body {
 /* التوافق مع الشاشات الصغيرة (الموبايل) */
 @media (max-width: 768px) {
     .categories-section {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         display: grid;
     }
     .sales-header h2 {
