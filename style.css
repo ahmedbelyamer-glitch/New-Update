@@ -295,7 +295,7 @@ body {
     font-weight: 600;
     color: #111;
     line-height: 1.05;
-    height: 70px; /* لتثبيت الارتفاع عند سطرين */
+    height: 60px; /* لتثبيت الارتفاع عند سطرين */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
